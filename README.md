@@ -1,0 +1,19 @@
+Game instructions: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
