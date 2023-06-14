@@ -5,6 +5,17 @@ canvas {
   }
   
 
+.container
+  {
+    background-color: darkolivegreen;
+    background-size: cover;
+  }
+
+
+  canvas.container
+
+
+
 
 
   
