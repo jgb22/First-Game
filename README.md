@@ -1,24 +1,50 @@
-Game instructions: 
+# Bulbasaur Crossing Game
 
-yellow-car.png
-https://w7.pngwing.com/pngs/220/90/
-png-transparent-car-game-racing-thumbnail.png
+Welcome to the Bulbasaur Crossing Game! This game challenges you to navigate Bulbasaur through a busy road, avoiding oncoming cars. 
 
+## How to Play
 
+1. Access the Live Game: [Link to the live game](your-game-url)
 
-red-car.png
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzKM1218YQktQwdegua8XJ9OnGayq7EK4RFLZxQLUr3g&s
+2. Game Objective: The objective of the game is to guide Bulbasaur to cross the road safely without getting hit by any cars.
 
+3. Controls:
+   - Use the **Arrow Up** key to move the turtle upwards.
+   - Use the **Arrow Down** key to move the turtle downwards.
+   - Use the **Arrow Left** key to move the turtle to the left.
+   - Use the **Arrow Right** key to move the turtle to the right.
 
-purple-car.png
-https://static.vecteezy.com/system/resources/thumbnails/004/341/511/small/purple-sedan-cartoon-illustration-violet-electric-car-futuristic-vehicle-flat-color-object-contemporary-transportation-magenta-colored-hybrid-automobile-isolated-on-white-background-vector.jpg
+4. Avoid Collisions:
+   - Dodge the moving cars on the road by directing the turtle.
+   - If the turtle collides with a car, the game ends.
+   - If the turtle collides with any of the side walls, then it stops moving
 
+5. Scoring:
+   - Your score is awarded only when you hit the top wall.
+   - The more often you hit the top wall, the more points you get.
 
+6. Game Over:
+   - The game ends when the turtle collides with a car.
+   - You can restart the game by clicking the **Restart** button in the pop up box.
 
-school-bus.png
-https://png.pngtree.com/png-clipart/20190921/original/pngtree-yellow-cartoon-school-bus-illustration-png-image_4690608.jpg
+7. Speed Challenge:
+   - The speed of the character and the speed of the cars is static and is not getting increased.
+   
 
+8. Enjoy and don't Compete too much
+   
 
+## Development
+
+The Turtle Crossing Game was developed using JavaScript and HTML5 Canvas. The game logic and visual elements were implemented using these technologies.
+
+If you are interested in exploring or modifying the game's source code, you can find it in the [src](src) directory.
+
+## Credits
+
+The Bulbasaur Crossing Game is inspired by classic arcade ATARI games and was created by Efty. Feel free to contribute to the game or provide feedback for improvements.
+
+Have fun playing the Game!
 
 
 

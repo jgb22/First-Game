@@ -5,22 +5,140 @@
   
   <link rel="stylesheet" href="./src/index.css"  >
   
+  <style>
+    #game-canvas {
+
+      background-image: url("./src/images/racing-game.png");
+      /* background: position 100%;; */
+      /* background size:nav-up:; */
+      background span::after
+      background-repeat: no-repeat;
+      background-color: transparent;
+    width: 1050px;
+    height: 800px;
+    }
+
+
   
+  
+
+  </style>
+  
+  
+
+
 </head>
 <body>
+
+  <div
+  id="startGame"
+  style="display:block;
+    background-color: rgb(21, 22, 21);
+    top: -10%;
+    transform: translate(+40%, +380%);
+    left: 70%;
+    padding: 50px;
+    max-width: 400px;
+    width: 200%;
+    text-align: center;
+    border-radius: 5px;
+  "
+>
+
+  <button
+  id="startButton"
+  style="margin-top: 12px;
+  background-color: rgb(255, 255, 255);
+
+  border: none;
+  font-size: larger;
+  font-weight: 700;
+  color: rgb(8, 72, 2);
+  padding: 17px 80px;
+  border-radius: 5px;
+  cursor: pointer;"
+  >
+Start
+</button>
+</div>
+
+
   <div id="game-box">
-    <canvas id="game-canvas" width="650" height="500"></canvas>
-    <div id="score">Score: 0</div>
-  </div>
+    <canvas id="game-canvas" width="1800" height="1000"></canvas>
 
-<button id ="start">Start</button>
+    
+    <!-- <div id="score">Score: 0</div> -->
 
-
-
-
-  <!-- <img src="https://clipart-library.com/images/6Tr6KBA7c.png" alt="Turtle chilling" id="source">  -->
+    <div
+    id="score"
+    style="display:block;
+      background-color: rgb(173, 190, 115);
+      top: 10%;
+      transform: translate(-170%, 1200%);
+      left: 70%;
+      padding: 20px;
+      max-width: 100px;
+      width: 100%;
+      text-align: center;
+      border-radius: 40px;
+      position: fixed
+    
+      
+    "
+  >
   
-  <!-- <img src="https://w7.pngwing.com/pngs/317/828/png-transparent-car-audi-a1-car-top-blue-sedan-angle-thumbnail.png" alt="blue car" id="source3"> -->
+    
+  Score: 0
+  </div>
+  
+
+
+<!-- Game Over and Restart Game -->
+
+<div
+  id="game-over"
+  style="display: none;
+    position: absolute;
+    background-color: rgb(26, 25, 24);
+    top: -10%;
+    transform: translate(-140%, 140%);
+    left: 65%;
+    padding: 100px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+  "
+>
+<label style="font-size: 14px; font-size:x-large; font-weight: 1200; color:rgb(213, 4, 4)">Game Over</label>
+<h1 
+  id="Score"
+  style="font-size: small; color:gray; margin-bottom: 0;margin-top: 8px;">
+  
+</h1>
+<p style="margin: 0; font-size: 16px; font-style:unset; color: rgb(197, 197, 197)">Points</p>
+<button
+  id="restartButton"
+  style="margin-top: 12px;
+  background-color: rgb(48, 101, 236);
+  border: none;
+  font-size: larger;
+  color: rgb(202, 202, 202);
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;"
+  onclick="location.reload();"
+
+  >
+Restart Game
+</button>
+</div>
+
+
+<!-- Start Game -->
+
+<br>
+
 
   <script src="./src/index.js"></script>
 </body>
