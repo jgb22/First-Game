@@ -4,7 +4,7 @@ Welcome to the Bulbasaur Crossing Game! This game challenges you to navigate Bul
 
 ## How to Play
 
-1. Access the Live Game: [Link to the live game](your-game-url)
+1. Access the Live Game: [Link to the live game](https://jgb22.github.io/First-Game/)
 
 2. Game Objective: The objective of the game is to guide Bulbasaur to cross the road safely without getting hit by any cars.
 
